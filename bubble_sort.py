@@ -2,24 +2,28 @@ import time
 import random
 
 def main():
-  for x in xrange(1,10):
-    items = []
-    start_time = time.time()
-    for y in xrange(1,10):
-      items.append(random.randint(1, 10))
-    BubbleSort(items)
-    print("%s --- %s seconds ---" % (x, time.time() - start_time))
+	r = 1000000
+	print("Running with a r of %s" % (r))
+	for x in xrange(1,11):
+		items = []
+		for y in xrange(1,r + 1):
+			items.append(random.randint(1, r + 1))
+		start_time = time.time()
+		BubbleSort(items)
+		print("%s --- %s seconds ---" % (x, time.time() - start_time))
 
 def BubbleSort(a):
-  length = len(bad_list) - 1
-  sorted = False
+	#print("UL = %s" % (a))
+	length = len(a) - 1
+	sorted = False
 
-    while not sorted:
-        sorted = True
-        for i in range(length):
-            if bad_list[i] > bad_list[i+1]:
-                sorted = False
-                bad_list[i], bad_list[i+1] = bad_list[i+1], bad_list[i]
+	while not sorted:
+		sorted = True
+		for i in range(length):
+			if a[i] > a[i+1]:
+				sorted = False
+				a[i], a[i+1] = a[i+1], a[i]
+	#print("OL = %s" % (a))
 
 if __name__ == "__main__":
-    main()
+		main()
