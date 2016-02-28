@@ -49,7 +49,7 @@ Running with a r of 10,000
 Running with a r of 100,000
 1 --- 552.942213058 seconds ---
 2 --- 590.459297895 seconds ---
-3 --- 557.252176046 seconds ---
+3 --- 557.252176046 seconds --- 
 4 --- 556.872772932 seconds ---
 5 --- 548.503013849 seconds ---
 6 --- 557.97501111 seconds ---

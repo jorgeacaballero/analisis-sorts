@@ -8,7 +8,7 @@ Running with a r of 10
 7 --- 2.78949737549e-05 seconds ---
 8 --- 2.69412994385e-05 seconds ---
 9 --- 2.28881835938e-05 seconds ---
-10 --- 2.78949737549e-05 seconds ---
+10 -- 2.78949737549e-05 seconds ---
 
 Running with a r of 100
 1 --- 0.000456809997559 seconds ---
@@ -20,7 +20,7 @@ Running with a r of 100
 7 --- 0.000473976135254 seconds ---
 8 --- 0.00048303604126 seconds ---
 9 --- 0.000472068786621 seconds ---
-10 --- 0.000493049621582 seconds ---
+10 -- 0.000493049621582 seconds ---
 
 Running with a r of 1,000
 1 --- 0.00770306587219 seconds ---
@@ -32,7 +32,7 @@ Running with a r of 1,000
 7 --- 0.00709795951843 seconds ---
 8 --- 0.0072340965271 seconds ---
 9 --- 0.00788688659668 seconds ---
-10 --- 0.00760006904602 seconds ---
+10 -- 0.00760006904602 seconds ---
 
 Running with a r of 10,000
 1 --- 0.105581045151 seconds ---
@@ -56,7 +56,7 @@ Running with a r of 100,000
 7 --- 1.27304410934 seconds ---
 8 --- 1.37400579453 seconds ---
 9 --- 1.30410885811 seconds ---
-10 --- 1.35873913765 seconds ---
+10 -- 1.35873913765 seconds ---
 
 Running with a r of 1000000
 1 --- 16.0674469471 seconds ---
@@ -68,5 +68,5 @@ Running with a r of 1000000
 7 --- 16.6265120506 seconds ---
 8 --- 17.2312619686 seconds ---
 9 --- 16.8030450344 seconds ---
-10 --- 17.4143559933 seconds ---
+10 -- 17.4143559933 seconds ---
 
